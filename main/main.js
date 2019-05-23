@@ -1,8 +1,8 @@
 module.exports = function main(inputs) {
-    if (inputs.distance < 2) {
-        return 7
+    price = 6;
+    if (10 - inputs.distance < 8) {
+        price += (inputs.distance-2)*0.8
     }
-    else {
-        return 13
-    }
+    price += inputs.parkTime*0.25
+    return Math.floor(price+0.5)
 };
