@@ -1,3 +1,8 @@
 module.exports = function main(inputs) {
-    return 7    
+    if (inputs.distance < 2) {
+        return 7
+    }
+    else {
+        return 13
+    }
 };
